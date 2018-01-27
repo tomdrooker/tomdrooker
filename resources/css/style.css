@@ -1,0 +1,42 @@
+html {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  margin-left: 2rem;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+  margin-right: 2rem;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  padding-bottom: 2rem;
+}
+
+.center-content {
+  justify-content: center;
+  text-align: center;
+}
+
+.space-bottom {
+  margin-bottom: 3rem;
+}
+
+.less-space-bottom {
+  margin-bottom: 2rem;
+}
+
+.inbetween-space {
+  margin: 2rem 0 2rem 0;
+}
+
+#gallery {
+  margin-top: 4rem;
+}
