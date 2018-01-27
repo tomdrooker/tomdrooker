@@ -40,3 +40,8 @@ html {
 #gallery {
   margin-top: 4rem;
 }
+
+footer {
+  background-color: #e3f2fd;
+  height: 3rem;
+}
