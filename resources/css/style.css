@@ -62,6 +62,11 @@ html {
   color: white;
 }
 
+.project-info a {
+  color: white;
+  text-decoration: underline;
+}
+
 .project-name {
   margin-top: 0.5rem;
 }
