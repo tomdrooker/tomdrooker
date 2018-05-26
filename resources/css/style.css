@@ -41,6 +41,31 @@ html {
   margin-top: 4rem;
 }
 
+.project {
+  background-image: url("../images/espresso.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s;
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+.project-info {
+  display: none;
+  width: 60%;
+  background-color: hsla(46, 100%, 0%, 0.4);
+  color: white;
+}
+
+.project-name {
+  margin-top: 0.5rem;
+}
+
 footer {
   background-color: #e3f2fd;
   height: 3rem;
