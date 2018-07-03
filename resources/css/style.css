@@ -41,6 +41,11 @@ html {
   margin-top: 4rem;
 }
 
+.small {
+  width: 60%;
+  height: auto;
+}
+
 .project-one, .project-two, .project-three, .project-four {
   transition: transform 0.5s;
   position: relative;
@@ -91,6 +96,11 @@ html {
 .project-name {
   margin-top: 0.5rem;
   color: black;
+}
+
+.centred-row {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 760) {
