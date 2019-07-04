@@ -46,7 +46,7 @@ html {
   height: auto;
 }
 
-.project-one, .project-two, .project-three, .project-four {
+.project-one, .project-two, .project-three, .project-four, .project-five {
   transition: transform 0.5s;
   position: relative;
   color: white;
@@ -57,14 +57,16 @@ html {
 .project-one:hover,
 .project-two:hover,
 .project-three:hover,
-.project-four:hover {
+.project-four:hover,
+.project-five:hover {
   transform: scale(1.1);
 }
 
 .project-info-one,
 .project-info-two,
 .project-info-three,
-.project-info-four {
+.project-info-four,
+.project-info-five {
   display: none;
   position: absolute;
   top: 45%;
@@ -88,7 +90,8 @@ html {
 .project-info-one a,
 .project-info-two a,
 .project-info-three a,
-.project-info-four a {
+.project-info-four a,
+.project-info-five a {
   color: white;
   text-decoration: underline;
 }

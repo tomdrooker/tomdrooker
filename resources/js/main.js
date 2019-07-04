@@ -31,4 +31,12 @@ $(document).ready(function() {
   $(".project-four").on("mouseleave", function() {
     $(".project-info-four").hide();
   })
+
+  $(".project-five").click(function() {
+    $(".project-info-five").show();
+  });
+
+  $(".project-five").on("mouseleave", function() {
+    $(".project-info-five").hide();
+  })
 });
