@@ -83,6 +83,10 @@ html {
   .large {
     width: 95%;
   }
+
+  .envelope {
+    margin-bottom: 3rem;
+  }
 }
 
 @media only screen and (max-width: 640px) {
